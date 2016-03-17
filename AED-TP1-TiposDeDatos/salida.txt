@@ -1,0 +1,40 @@
+*** TIPOS DE DATOS Y SUS OPERACIONES ***
+
+>>> Tipo de dato: bool
+1. Valor de la proposicion (Verdadero o Verdadero)
+Valor: 1
+2. Valor de la proposicion (Falso y Verdadero)
+Valor: 0
+3. Valor de la proposicion (!Falso)
+Valor: 1
+
+>>> Tipo de dato: char
+1. Comparacion de dos caracteres ('a' & 'b')
+El caracter 'a' no es igual al caracter 'b'
+
+
+>>> Tipo de dato: int
+1. Suma de tres numeros enteros (10 + 30 + 209)
+Resultado: 249
+2. Resta de dos numeros enteros (55 - 105)
+Resultado: -50
+3. Comparacion de dos numeros enteros
+        Ingrese el primer numero entero: 50
+        Ingrese el segundo numero entero: 10
+El numero entero 50 es mayor al numero entero 10
+4. Operacion modulo con dos numeros enteros
+        Ingrese el primer numero entero: 100
+        Ingrese el segundo numero entero: 2
+El resultado de 100%2 es: 0
+
+
+> float
+1. Suma de tres numeros reales (10.5 + 30.8 + 209.01)
+Resultado: 250.31
+2. Resta de dos numeros reales (55.008 - 105.5)
+Resultado: -50.492
+
+
+> string
+1. Ejemplo de concatenacion de cadenas:
+Esto es una concatenacion de cadenas

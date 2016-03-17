@@ -1,0 +1,269 @@
+
+                   *** CALCULO DEL PERIMETRO DE UN RECTANGULO ***
+                 ==================================================
+
+1. Ingrese la altura del rectangulo en cm: 10
+2. Ingrese la base del rectangulo en cm:
+
+
+
+/////////////////////////// división de captura del programa //////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+                   *** CALCULO DEL PERIMETRO DE UN RECTANGULO ***
+                 ==================================================
+
+1. Ingrese la altura del rectangulo en cm: 10
+2. Ingrese la base del rectangulo en cm: -80
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia:
+
+
+
+/////////////////////////// división de captura del programa //////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+                   *** CALCULO DEL PERIMETRO DE UN RECTANGULO ***
+                 ==================================================
+
+1. Ingrese la altura del rectangulo en cm: 10
+2. Ingrese la base del rectangulo en cm: -80
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia: -10
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia:
+
+
+
+/////////////////////////// división de captura del programa //////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+                   *** CALCULO DEL PERIMETRO DE UN RECTANGULO ***
+                 ==================================================
+
+1. Ingrese la altura del rectangulo en cm: 10
+2. Ingrese la base del rectangulo en cm: -80
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia: -10
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia: 80
+
+
+--------------------------------------
+--------------------------------------
+* Distancia altura: 10 cm
+* Distancia base: 80 cm
+> Perimetro del rectanagulo[P = 2*(b+h)]: 180 cm
+--------------------------------------
+--------------------------------------
+
+
+
+
+Desea calcular otro perimetro [Y/N]?:
+
+
+
+
+/////////////////////////// división de captura del programa //////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+                   *** CALCULO DEL PERIMETRO DE UN RECTANGULO ***
+                 ==================================================
+
+1. Ingrese la altura del rectangulo en cm: 10
+2. Ingrese la base del rectangulo en cm: -80
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia: -10
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia: 80
+
+
+--------------------------------------
+--------------------------------------
+* Distancia altura: 10 cm
+* Distancia base: 80 cm
+> Perimetro del rectanagulo[P = 2*(b+h)]: 180 cm
+--------------------------------------
+--------------------------------------
+
+
+
+
+Desea calcular otro perimetro [Y/N]?: t
+entro exepcion
+Cod.Ref: 2
+Desc.Excepcion: El valor de respuesta ingresado no es el esperado.
+
+Ayuda: Se esperaban los valores 'N' o 'Y'.
+
+
+Desea calcular otro perimetro [Y/N]?:
+
+
+
+/////////////////////////// división de captura del programa //////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+           
+                   *** CALCULO DEL PERIMETRO DE UN RECTANGULO ***
+                 ==================================================
+
+1. Ingrese la altura del rectangulo en cm: 10
+2. Ingrese la base del rectangulo en cm: -80
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia: -10
+
+Cod.Ref: 1
+Desc.Excepcion: El valor de la distancia ingresada no es valido.
+
+Ayuda: Las distancias son valores numericos reales no negativos. En este caso, t
+ambien, deben ser mayores al valor cero
+
+
+Ingrese nuevamente la distancia: 80
+
+
+--------------------------------------
+--------------------------------------
+* Distancia altura: 10 cm
+* Distancia base: 80 cm
+> Perimetro del rectanagulo[P = 2*(b+h)]: 180 cm
+--------------------------------------
+--------------------------------------
+
+
+
+
+Desea calcular otro perimetro [Y/N]?: t
+entro exepcion
+Cod.Ref: 2
+Desc.Excepcion: El valor de respuesta ingresado no es el esperado.
+
+Ayuda: Se esperaban los valores 'N' o 'Y'.
+
+
+Desea calcular otro perimetro [Y/N]?: y
+
+
+
+
+/////////////////////////// división de captura del programa //////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+                   *** CALCULO DEL PERIMETRO DE UN RECTANGULO ***
+                 ==================================================
+
+1. Ingrese la altura del rectangulo en cm:
+
+
+
+/////////////////////////// división de captura del programa //////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+                   *** CALCULO DEL PERIMETRO DE UN RECTANGULO ***
+                 ==================================================
+
+1. Ingrese la altura del rectangulo en cm: 30.5
+2. Ingrese la base del rectangulo en cm: 40.8
+
+
+--------------------------------------
+--------------------------------------
+* Distancia altura: 30 cm
+* Distancia base: 40 cm
+> Perimetro del rectanagulo[P = 2*(b+h)]: 140 cm
+--------------------------------------
+--------------------------------------
+
+
+
+
+Desea calcular otro perimetro [Y/N]?: n
+
+
+
+/////////////////////////// división de captura del programa //////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+>> Resumen
+Total de perimetros calculados: 2
+
+
+
+--------------------------------
+Process exited after 249.1 seconds with return value 0
+Presione una tecla para continuar . . .
+

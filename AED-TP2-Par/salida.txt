@@ -1,0 +1,52 @@
+DETERMINA SI UN NUMERO ES PAR
+==========================================
+
+Introduzca un numero entero: 10
+El numero 10 es par.
+
+Desea introducir otro numero?(S/N):S
+
+Introduzca un numero entero: 20
+El numero 20 es par.
+
+Desea introducir otro numero?(S/N):S
+
+Introduzca un numero entero: 30
+El numero 30 es par.
+
+Desea introducir otro numero?(S/N):S
+
+Introduzca un numero entero: 5
+El numero 5 es impar.
+
+Desea introducir otro numero?(S/N):S
+
+Introduzca un numero entero: -10
+El numero -10 es par.
+
+Desea introducir otro numero?(S/N):S
+
+Introduzca un numero entero: -1235
+El numero -1235 es impar.
+
+Desea introducir otro numero?(S/N):S
+
+Introduzca un numero entero: 123
+El numero 123 es impar.
+
+Desea introducir otro numero?(S/N):T
+El valor ingresado no es correcto, se esperaba el valor 'S' o el valor 'N'
+Desea introducir otro numero?(S/N):S
+
+Introduzca un numero entero: 8024
+El numero 8024 es par.
+
+Desea introducir otro numero?(S/N):N
+
+
+
+>>> Resumen
+
+Total de numeros introducidos: 8
+Total de numeros pares: 5
+Total de numeros impares: 3

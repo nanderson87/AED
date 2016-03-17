@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;TP#5 PERIMETRO DEL RECTANGULO&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Incio&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<while text="&#34;mientras ( sale = false )&#34;" comment="" color="ffffff">
+			<qWhile>
+				<call text="&#34;clearPantalla()&#34;" comment="" color="ffffff"></call>
+				<instruction text="&#34;Escribir:  &#34;&#34;*** CALCULO DEL PERIMETRO DE UN RECTANGULO ***&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;1. Ingrese la altura del rectangulo en cm: &#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<call text="&#34;h ←  getNumeroPositivo()&#34;" comment="" color="ffffff"></call>
+				<instruction text="&#34;Escribir: &#34;&#34;2. Ingrese la base del rectangulo en cm: &#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<call text="&#34;b ←  getNumeroPositivo()&#34;" comment="" color="ffffff"></call>
+				<instruction text="&#34;Escribir: &#34;&#34;--------------------------------------&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;--------------------------------------&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;* Distancia altura: &#34;&#34; , h ,  &#34;&#34;cm.&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;* Distancia base: &#34;&#34; , b , &#34;&#34;cm.&#34;&#34;&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<call text="&#34;Escribir: &#34;&#34;&#62; Perimetro del rectanagulo[P = 2*(b+h)]: &#34;&#34; , getPerimetroRectangulo ( h, b ), &#34;&#34;cm.&#34;&#34;&#34;" comment="" color="ffffff"></call>
+				<alternative text="&#34;compararDistancias( h, b )?&#34;" comment="" color="ffffff">
+					<qTrue>
+						<instruction text="&#34;Escribir: &#34;&#34;Obs.: Ingreso un caso particular de rectangulo, el \&#34;&#34;cuadrado\&#34;&#34;&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qTrue>
+					<qFalse>
+					</qFalse>
+				</alternative>
+				<instruction text="&#34;Escribir: &#34;&#34;--------------------------------------&#34;&#34; &#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;--------------------------------------&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;cant_calculos ← cant_calculos + 1&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;Desea calcular otro perimetro [Y/N]?: &#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<case text="&#34;controlRespuestaUsuario( input , &#34;&#34;Desea calcular otro perimetro [Y/N]?: &#34;&#34;)&#34;,&#34;1&#34;,&#34;2&#34;,&#34;si no: &#34;" comment="&#34;&#34;" color="ffffff">
+					<qCase>
+						<instruction text="&#34;sale ← false&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+						<instruction text="&#34;sale ← true&#34;" comment="" color="ffffff" rotated="0"></instruction>
+					</qCase>
+					<qCase>
+					</qCase>
+				</case>
+			</qWhile>
+		</while>
+		<call text="&#34;clearPantalla()&#34;" comment="" color="ffffff"></call>
+		<instruction text="&#34;Escribir: &#34;&#34;&#62;&#62; Resumen&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Mostar: &#34;&#34;Total de perimetros calculados: &#34;&#34; , cant_calculos&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Fin&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<jump text="&#34;&#34;" comment="&#34;&#34;" color="ffffff"></jump>
+		<instruction text="&#34;getNumeroPositivo:  (void) → R&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Leer: num&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<while text="&#34;mientras ( num &#60;= 0 )&#34;" comment="" color="ffffff">
+			<qWhile>
+				<call text="&#34;excepcion( 1 )&#34;" comment="" color="ffffff"></call>
+				<instruction text="&#34;Escribir: &#34;&#34;Ingrese nuevamente la distancia: &#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Leer: num&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qWhile>
+		</while>
+		<instruction text="&#34;return num&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<jump text="&#34;&#34;" comment="&#34;&#34;" color="ffffff"></jump>
+		<instruction text="&#34;getPerimetroRectangulo: ( R altura, R base ) → R&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;perimetro ← 2 * ( altura + base )&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;return perimetro&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<jump text="&#34;&#34;" comment="&#34;&#34;" color="ffffff"></jump>
+		<instruction text="&#34;compararDistancias: ( R altura , R base ) → booleano&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;altura = base?&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;return true&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;return false&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<jump text="&#34;&#34;" comment="&#34;&#34;" color="ffffff"></jump>
+		<instruction text="&#34;controlRespuestaUsuario: ( Caracter input_usuario, Cadena de Caracteres pregunta ) → Z&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<while text="&#34;mientras ( input_usuario &#60;&#62; 'Y'  or  input_usuario &#60;&#62; 'y'  &#34;,&#34;or  input_usuario &#60;&#62; 'N'  &amp;&amp;  input_usuario &#60;&#62; 'n' )&#34;" comment="" color="ffffff">
+			<qWhile>
+				<call text="&#34;excepcion ( 2 )&#34;" comment="" color="ffffff"></call>
+				<instruction text="&#34;Escribir: pregunta&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Leer: input_usuario&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qWhile>
+		</while>
+		<alternative text="&#34;input_usuario = 'Y'?&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;return 1&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+			</qFalse>
+		</alternative>
+		<alternative text="&#34;input_usuario = 'y'?&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;return 1&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+			</qFalse>
+		</alternative>
+		<alternative text="&#34;input_usuario = 'N'?&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;return 2&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+			</qFalse>
+		</alternative>
+		<alternative text="&#34;input_usuario = 'n'?&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;return 2&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+			</qFalse>
+		</alternative>
+		<jump text="" comment="" color="ffffff"></jump>
+		<instruction text="&#34;excepcion:  (Z, id_excepcion ) → void&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<case text="&#34;id_excepcion &#34;,&#34;1&#34;,&#34;2&#34;,&#34;si no&#34;" comment="" color="ffffff">
+			<qCase>
+				<instruction text="&#34;Escribir: &#34;&#34;Cod.Ref: &#34;&#34; , id_excepcion&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;Desc.Excepcion: El valor de la distancia ingresada no es valido.&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;Ayuda: Las distancias son valores numericos reales no negativos. En este caso, tambien, deben ser mayores al valor cero.&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qCase>
+			<qCase>
+				<instruction text="&#34;Escribir: &#34;&#34;Cod.Ref: &#34;&#34; , id_excepcion&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir &#34;&#34;Desc.Excepcion: El valor de respuesta ingresado no es el esperado.&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Escribir: &#34;&#34;Ayuda: Se esperaban los valores 'N' o 'Y'.&#34;&#34;&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qCase>
+			<qCase>
+			</qCase>
+		</case>
+	</children>
+</root>

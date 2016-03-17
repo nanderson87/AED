@@ -1,0 +1,256 @@
+                         *** JUEGO DE PREGUNTAS ***
+                 ==========================================
+
+> Pon a prueba tus conocimiento sobre el lenguaje de programacion C++
+y sobre la materia Algoritmo y Estructura de Datos (AED).
+
+
+
+
+[1]. Seleccionar categoria de preguntas
+[2]. Ver puntuacion y estadisticas
+[3]. Como jugar?
+[4]. Reglas
+[5]. Acerca de Juego de Preguntas
+
+
+[9]. Salir
+
+
+
+
+
+
+Ingrese el numero menu y presionando intro: 1
+
+---------------
+---------------
+
+SELECCIONE UNA CATEGORIA
+===================================
+
+
+
+
+
+[1]. Tipos de datos C++
+[2]. Operadores C++      --> [Puntaje: 10/10] (COMPLETA!)
+[3]. Precedencia de operadores C++
+[4]. Conjunto de Caracteres ASCII
+[5]. Bibleoteca estandar de C++
+[6]. Conceptos Basicos AED
+
+
+[8]. Atras
+[9]. Salir
+
+
+
+
+
+
+Seleccione la categoria ingresando el numero: 6
+
+---------------
+---------------
+
+CATEGORIA: CONCEPTOS BASICOS AED ( Pregunta: 1/10 )
+============================================================
+
+Cual de los siguientes NO es un diagrama valido para representar graficamente un
+ Algoritmo o Programa?
+
+[1]. Diagrama de Thompson
+[2]. Diagrama de Flujo
+[3]. Diagrama de Nassi-Shneiderman
+
+
+Seleccion el numero de respuesta: 1
+
+---------------
+---------------
+
+
+CATEGORIA: CONCEPTOS BASICOS AED ( Pregunta: 1/10 )
+============================================================
+
+Cual de los siguientes NO es un diagrama valido para representar graficamente un
+ Algoritmo o Programa?
+
+[1]. Diagrama de Thompson
+[2]. Diagrama de Flujo
+[3]. Diagrama de Nassi-Shneiderman
+
+
+Seleccion el numero de respuesta: 1
+
+CORRECTO
+Presione intro para continuar con la siguientes pregunta...
+
+---------------
+---------------
+
+CATEGORIA: CONCEPTOS BASICOS AED ( Pregunta: 2/10 )
+============================================================
+
+Segun lo propuesto por Bohm-Jacopini, cuales son las 3 intrucciones de control p
+ara escribir cualquier programa?
+
+[1]. Algoritmo, Decision, Iteracion
+[2]. Secuencia, Iteracion, Demostracion
+[3]. Secuencia, Decision, Iteracion
+
+
+Seleccion el numero de respuesta: 3
+
+---------------
+---------------
+
+CATEGORIA: CONCEPTOS BASICOS AED ( Pregunta: 2/10 )
+============================================================
+
+Segun lo propuesto por Bohm-Jacopini, cuales son las 3 intrucciones de control p
+ara escribir cualquier programa?
+
+[1]. Algoritmo, Decision, Iteracion
+[2]. Secuencia, Iteracion, Demostracion
+[3]. Secuencia, Decision, Iteracion
+
+
+Seleccion el numero de respuesta: 3
+
+CORRECTO
+Presione intro para continuar con la siguientes pregunta...
+
+
+---------------
+---------------
+
+
+CATEGORIA: CONCEPTOS BASICOS AED  ( Pregunta: 3/10 )
+============================================================
+
+Cual de las siguientes oraciones define de mejor manera una Variable?
+
+[1]. Representacion de un objeto del mundo real mediante el cual se pueden model
+izar aspectos de un problema.
+[2]. Relacion nombre espacio de memoria que puede almacenar diferentes valores e
+n funcion del tiempo
+[3]. Linea de codigo en un lenguaje de programacion
+
+
+Seleccion el numero de respuesta: 1
+
+---------------
+---------------
+
+
+CATEGORIA: CONCEPTOS BASICOS AED  ( Pregunta: 3/10 )
+============================================================
+
+Cual de las siguientes oraciones define de mejor manera una Variable?
+
+[1]. Representacion de un objeto del mundo real mediante el cual se pueden model
+izar aspectos de un problema.
+[2]. Relacion nombre espacio de memoria que puede almacenar diferentes valores e
+n funcion del tiempo
+[3]. Linea de codigo en un lenguaje de programacion
+
+
+Seleccion el numero de respuesta: 1
+
+INCORRECTO
+Presione intro para continuar con la siguientes pregunta...
+
+
+...
+
+
+---------------
+---------------
+
+
+SELECCIONE UNA CATEGORIA
+===================================
+
+
+
+
+
+[1]. Tipos de datos C++
+[2]. Operadores C++      --> [Puntaje: 10/10] (COMPLETA!)
+[3]. Precedencia de operadores C++
+[4]. Conjunto de Caracteres ASCII
+[5]. Bibleoteca estandar de C++
+[6]. Conceptos Basicos AED       --> [Puntaje: 8/10]
+
+
+[8]. Atras
+[9]. Salir
+
+
+
+
+
+
+Seleccione la categoria ingresando el numero: 8
+
+---------------
+---------------
+
+                         *** JUEGO DE PREGUNTAS ***
+                 ==========================================
+
+> Pon a prueba tus conocimiento sobre el lenguaje de programacion C++
+y sobre la materia Algoritmo y Estructura de Datos (AED).
+
+
+
+
+[1]. Seleccionar categoria de preguntas
+[2]. Ver puntuacion y estadisticas
+[3]. Como jugar?
+[4]. Reglas
+[5]. Acerca de Juego de Preguntas
+
+
+[9]. Salir
+
+
+
+
+
+
+
+Ingrese el numero menu y presionando intro: 2
+
+
+---------------
+---------------
+
+
+PUNTUAJE, ESTADISTICAS & CALIFICACION
+==================================================
+*** Por Categoria ***
+> Tipos de datos C++
+Veces jugadas: 0  | Aciertos: 0  | Desaciertos: 0
+> Operadores C++
+Veces jugadas: 1  | Aciertos: 10  | Desaciertos: 0
+> Precedencia de operadores C++
+Veces jugadas: 0  | Aciertos: 0  | Desaciertos: 0
+> Conjunto de Caracteres ASCII
+Veces jugadas: 0  | Aciertos: 0  | Desaciertos: 0
+> Bibleoteca estandar de C++
+Veces jugadas: 0  | Aciertos: 0  | Desaciertos: 0
+> Conceptos Basicos AED
+Veces jugadas: 1  | Aciertos: 8  | Desaciertos: 2
+
+*** Totales ***
+Total de aciertos: 18
+Total de desaciertos: 2
+
+Nivel: Bajo | Estrellas: **
+
+
+Presione intro para volver al Menu Principal...
+
